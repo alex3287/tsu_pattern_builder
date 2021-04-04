@@ -9,9 +9,10 @@
 #include "Animal.h"
 
 class Monkey: public Animal {
+
 public:
     void Eat();
-    //fixme метод клонирования
+
 };
 
 

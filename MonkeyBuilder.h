@@ -7,8 +7,9 @@
 
 #include "IAnimalBuilder.h"
 #include "Monkey.h"
+#include "BasePrototype.h"
 
-class MonkeyBuilder: public IAnimalBuilder {
+class MonkeyBuilder: public IAnimalBuilder{
 public:
     MonkeyBuilder();
     void BuildAnimalHeader();
