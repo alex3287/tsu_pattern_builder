@@ -3,3 +3,7 @@
 //
 
 #include "IAnimalBuilder.h"
+
+IAnimalBuilder::~IAnimalBuilder() {
+
+}

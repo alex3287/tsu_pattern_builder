@@ -5,9 +5,17 @@
 #ifndef TSU_PATTERN_BUILDER_IANIMALBUILDER_H
 #define TSU_PATTERN_BUILDER_IANIMALBUILDER_H
 
+#include "Animal.h"
 
 class IAnimalBuilder {
-
+public:
+    Animal* aAnimal;
+    virtual void BuildAnimalHeader()=0;
+    virtual void BuildAnimalBody() = 0;
+    virtual void BuildAnimalLeg() = 0;
+    virtual void BuildAnimalArm() = 0;
+    virtual void BuildAnimalTail() = 0;
+    virtual ~IAnimalBuilder();
 };
 
 

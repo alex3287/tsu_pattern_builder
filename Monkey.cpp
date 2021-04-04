@@ -3,3 +3,9 @@
 //
 
 #include "Monkey.h"
+
+void Monkey::Eat() {
+    {
+        std::cout<<"Since I am Monkey, I like to eat banana";
+    }
+}

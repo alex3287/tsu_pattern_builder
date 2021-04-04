@@ -3,3 +3,11 @@
 //
 
 #include "Kid.h"
+
+void Kid::MakeAnimal(IAnimalBuilder *aAnimalBuilder) {
+        aAnimalBuilder->BuildAnimalHeader();
+        aAnimalBuilder->BuildAnimalBody();
+        aAnimalBuilder->BuildAnimalLeg();
+        aAnimalBuilder->BuildAnimalArm();
+        aAnimalBuilder->BuildAnimalTail();
+}

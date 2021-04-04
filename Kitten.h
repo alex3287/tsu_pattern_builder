@@ -5,8 +5,12 @@
 #ifndef TSU_PATTERN_BUILDER_KITTEN_H
 #define TSU_PATTERN_BUILDER_KITTEN_H
 
+#include <iostream>
+#include "Animal.h"
 
-class Kitten {
+class Kitten: public Animal {
+public:
+    void Eat();
 
 };
 

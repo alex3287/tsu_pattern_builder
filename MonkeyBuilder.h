@@ -5,9 +5,17 @@
 #ifndef TSU_PATTERN_BUILDER_MONKEYBUILDER_H
 #define TSU_PATTERN_BUILDER_MONKEYBUILDER_H
 
+#include "IAnimalBuilder.h"
+#include "Monkey.h"
 
-class MonkeyBuilder {
-
+class MonkeyBuilder: public IAnimalBuilder {
+public:
+    MonkeyBuilder();
+    void BuildAnimalHeader();
+    void BuildAnimalBody();
+    void BuildAnimalLeg();
+    void BuildAnimalArm();
+    void BuildAnimalTail();
 };
 
 
