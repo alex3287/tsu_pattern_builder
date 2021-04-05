@@ -6,6 +6,7 @@
 #define TSU_PATTERN_BUILDER_ANIMAL_H
 
 #include <iostream>
+#include <memory>
 
 
 class Animal {
@@ -18,7 +19,9 @@ public:
     // вспомогательный метод для демонстрации результата
     virtual void Eat() = 0;
     void ShowMe();
-
+    virtual ~Animal() = default;
+    // Пробую создать метод клонирования
+    virtual  std::shared_ptr<Animal> clone() const = 0;
 };
 
 

@@ -7,6 +7,8 @@
 
 #include "IAnimalBuilder.h"
 #include "Kitten.h"
+#include "Animal.h"
+using namespace std;
 
 class KittenBuilder: public IAnimalBuilder {
 public:

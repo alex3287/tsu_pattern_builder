@@ -10,10 +10,10 @@
 #include "Kitten.h"
 
 class PrototypeObjFactory {
-public:
-    BasePrototype* createMonkey();
-
-    BasePrototype* createKitten();
+//public:
+//    BasePrototype* createMonkey();
+//
+//    BasePrototype* createKitten();
 /*
 BasePrototype* createObjectX() {
                    static ObjectX prototype;

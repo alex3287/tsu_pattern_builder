@@ -4,14 +4,14 @@
 
 #include "PrototypeObjFactory.h"
 
-BasePrototype *PrototypeObjFactory::createMonkey() {
+//BasePrototype *PrototypeObjFactory::createMonkey() {
 //    static Monkey prototype;
 //    return prototype.clone();
-    return nullptr;
-}
-
-BasePrototype *PrototypeObjFactory::createKitten() {
-    static Kitten prototype;
+//    return nullptr;
+//}
+//
+//BasePrototype *PrototypeObjFactory::createKitten() {
+//    static Kitten prototype;
 //    return prototype.clone();
-    return nullptr;
-}
+//    return nullptr;
+//}

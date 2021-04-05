@@ -9,13 +9,16 @@
 
 class IAnimalBuilder {
 public:
-    Animal* aAnimal;
+//    Animal* aAnimal;
+    std::shared_ptr<Animal> aAnimal;
     virtual void BuildAnimalHeader()=0;
     virtual void BuildAnimalBody() = 0;
     virtual void BuildAnimalLeg() = 0;
     virtual void BuildAnimalArm() = 0;
     virtual void BuildAnimalTail() = 0;
     virtual ~IAnimalBuilder();
+
+
 };
 
 

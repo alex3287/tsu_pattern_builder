@@ -7,7 +7,6 @@
 
 #include "IAnimalBuilder.h"
 #include "Monkey.h"
-#include "BasePrototype.h"
 
 class MonkeyBuilder: public IAnimalBuilder{
 public:

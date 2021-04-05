@@ -4,8 +4,12 @@
 
 #include "KittenBuilder.h"
 
+//KittenBuilder::KittenBuilder() {
+//    aAnimal = new Kitten();
+//}
+
 KittenBuilder::KittenBuilder() {
-    aAnimal = new Kitten();
+    aAnimal = std::make_shared<Kitten>();
 }
 
 void KittenBuilder::BuildAnimalHeader() {

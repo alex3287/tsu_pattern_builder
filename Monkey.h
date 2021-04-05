@@ -7,12 +7,13 @@
 
 #include <iostream>
 #include "Animal.h"
+#include <memory>
 
 class Monkey: public Animal {
 
 public:
     void Eat();
-
+    virtual std::shared_ptr<Animal> clone() const override;
 };
 
 

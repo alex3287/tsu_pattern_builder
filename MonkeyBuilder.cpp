@@ -4,9 +4,14 @@
 
 #include "MonkeyBuilder.h"
 
+//MonkeyBuilder::MonkeyBuilder() {
+//    aAnimal = new Monkey();
+//}
+
 MonkeyBuilder::MonkeyBuilder() {
-    aAnimal = new Monkey();
+    aAnimal = std::make_shared<Monkey>();
 }
+
 
 void MonkeyBuilder::BuildAnimalHeader() {
     aAnimal->Head = "Moneky's Head has been built";
